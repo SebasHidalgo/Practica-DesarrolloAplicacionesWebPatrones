@@ -1,0 +1,67 @@
+.section  {
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    top: -100px;
+    z-index: 1;
+    margin-top: -50px;
+ }
+ 
+ .sectionn  {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 250px;
+    z-index: 1;
+    margin-top: -50px;
+ }
+ 
+ .sectionnn  {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 180px;
+    z-index: 9989;
+    margin-top: -50px;
+ }
+
+.container h5{
+    position: absolute;
+    left: 25px;
+    color: black;
+    padding: 0;
+    line-height: 80px;
+}
+
+.footer {
+    height: 80px;
+    background-color: #f4f4f4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 2px 4px 15px;
+}
+
+.logoFooter{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    max-width: 10px;
+}
+
+.article {
+   position: relative;
+   margin-left: 20px;
+   margin-right: 20px;
+   top: 100px;
+}
+
+
